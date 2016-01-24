@@ -106,7 +106,7 @@
       </PrecompiledHeader>
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
-      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;_LIB;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <SDLCheck>true</SDLCheck>
       <AdditionalIncludeDirectories>C:\Program Files (x86)\PoDoFo\include</AdditionalIncludeDirectories>
       <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
@@ -114,9 +114,12 @@
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalLibraryDirectories>F:/Workspace/podofo_build/src/$(Configuration);</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>
+      </AdditionalLibraryDirectories>
       <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;WS2_32.lib;F:\Workspace\podofo_build\x64\Debug\podofo.lib;F:\Workspace\zlib-1.2.8\contrib\vstudio\vc10\x64\ZlibStatDebug\zlibstat.lib;F:\Workspace\jpeg-9a\x64\Debug\jpeg.lib;F:\Workspace\freetype-2.6.1\objs\vc2010\x64\freetype261MTd.lib;F:\Workspace\lpng1618\projects\vstudio\x64\Debug Library\libpng16.lib</AdditionalDependencies>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <StackReserveSize>
+      </StackReserveSize>
     </Link>
     <PostBuildEvent>
       <Command>
@@ -180,6 +183,22 @@
     <ClInclude Include="TextMarker.h" />
     <ClInclude Include="TextObj.h" />
     <ClInclude Include="TextReader.h" />
+    <ClInclude Include="VdpColor.h" />
+    <ClInclude Include="VdpDataType.h" />
+    <ClInclude Include="VdpDefs.h" />
+    <ClInclude Include="VdpDocument.h" />
+    <ClInclude Include="VdpExtractor.h" />
+    <ClInclude Include="VdpGraphicsState.h" />
+    <ClInclude Include="VdpMatrix.h" />
+    <ClInclude Include="VdpObject.h" />
+    <ClInclude Include="VdpPage.h" />
+    <ClInclude Include="VdpPdfParser.h" />
+    <ClInclude Include="VdpPosition.h" />
+    <ClInclude Include="VdpRect.h" />
+    <ClInclude Include="VdpTemplateWriter.h" />
+    <ClInclude Include="VdpText.h" />
+    <ClInclude Include="VdpTextState.h" />
+    <ClInclude Include="VdpUtility.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="DataManager.cpp" />
@@ -196,6 +215,26 @@
     <ClCompile Include="TextMarker.cpp" />
     <ClCompile Include="TextObj.cpp" />
     <ClCompile Include="TextReader.cpp" />
+    <ClCompile Include="VdpColor.cpp" />
+    <ClCompile Include="VdpDataType.cpp" />
+    <ClCompile Include="VdpDocument.cpp" />
+    <ClCompile Include="VdpExtractor.cpp" />
+    <ClCompile Include="VdpGraphicsState.cpp" />
+    <ClCompile Include="VdpMatrix.cpp" />
+    <ClCompile Include="VdpObject.cpp" />
+    <ClCompile Include="VdpPage.cpp" />
+    <ClCompile Include="VdpPdfParser.cpp" />
+    <ClCompile Include="VdpPosition.cpp" />
+    <ClCompile Include="VdpRect.cpp" />
+    <ClCompile Include="VdpTemplateWriter.cpp" />
+    <ClCompile Include="VdpText.cpp" />
+    <ClCompile Include="VdpTextState.cpp" />
+    <ClCompile Include="VdpUtility.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\PoDoFo\podofo_static.vcxproj">
+      <Project>{2dba4539-10f8-3578-83f9-d6faee196ed0}</Project>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

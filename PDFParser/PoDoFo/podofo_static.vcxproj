@@ -1,0 +1,601 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{2DBA4539-10F8-3578-83F9-D6FAEE196ED0}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>podofo_static</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">F:\Workspace\podofo_build\src\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">podofo_static.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">podofo</TargetName>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">podofo</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.lib</TargetExt>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">F:\Workspace\podofo_build\src\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">podofo_static.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">podofo</TargetName>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">podofo</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.lib</TargetExt>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">F:\Workspace\podofo_build\src\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">podofo_static.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">podofo</TargetName>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">podofo</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.lib</TargetExt>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">F:\Workspace\podofo_build\src\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">podofo_static.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">podofo</TargetName>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">podofo</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.lib</TargetExt>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>F:\Workspace\jpeg-9a;F:\Workspace\lpng1618;F:\Workspace\zlib-1.2.8;F:\Workspace\podofo_build;F:\Workspace\podofo-0.9.3;F:\Workspace\podofo-0.9.3\src;F:\Workspace\freetype-2.6.1\include;F:\Workspace\freetype-2.6.1\builds;F:\Workspace\podofo-0.9.3\vcincludes;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;BUILDING_PODOFO;_CRT_SECURE_NO_DEPRECATE;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;BUILDING_PODOFO;_CRT_SECURE_NO_DEPRECATE;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>F:\Workspace\jpeg-9a;F:\Workspace\lpng1618;F:\Workspace\zlib-1.2.8;F:\Workspace\podofo_build;F:\Workspace\podofo-0.9.3;F:\Workspace\podofo-0.9.3\src;F:\Workspace\freetype-2.6.1\include;F:\Workspace\freetype-2.6.1\builds;F:\Workspace\podofo-0.9.3\vcincludes;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>F:\Workspace\jpeg-9a;F:\Workspace\lpng1618;F:\Workspace\zlib-1.2.8;F:\Workspace\podofo_build;F:\Workspace\podofo-0.9.3;F:\Workspace\podofo-0.9.3\src;F:\Workspace\freetype-2.6.1\include;F:\Workspace\freetype-2.6.1\builds;F:\Workspace\podofo-0.9.3\vcincludes;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>F:\Workspace\jpeg-9a;F:\Workspace\lpng1618;F:\Workspace\zlib-1.2.8;F:\Workspace\podofo_build;F:\Workspace\podofo-0.9.3;F:\Workspace\podofo-0.9.3\src;F:\Workspace\freetype-2.6.1\include;F:\Workspace\freetype-2.6.1\builds;F:\Workspace\podofo-0.9.3\vcincludes;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;BUILDING_PODOFO;_CRT_SECURE_NO_DEPRECATE;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;BUILDING_PODOFO;_CRT_SECURE_NO_DEPRECATE;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>F:\Workspace\jpeg-9a;F:\Workspace\lpng1618;F:\Workspace\zlib-1.2.8;F:\Workspace\podofo_build;F:\Workspace\podofo-0.9.3;F:\Workspace\podofo-0.9.3\src;F:\Workspace\freetype-2.6.1\include;F:\Workspace\freetype-2.6.1\builds;F:\Workspace\podofo-0.9.3\vcincludes;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>F:\Workspace\jpeg-9a;F:\Workspace\lpng1618;F:\Workspace\zlib-1.2.8;F:\Workspace\podofo_build;F:\Workspace\podofo-0.9.3;F:\Workspace\podofo-0.9.3\src;F:\Workspace\freetype-2.6.1\include;F:\Workspace\freetype-2.6.1\builds;F:\Workspace\podofo-0.9.3\vcincludes;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions)</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>F:\Workspace\jpeg-9a;F:\Workspace\lpng1618;F:\Workspace\zlib-1.2.8;F:\Workspace\podofo_build;F:\Workspace\podofo-0.9.3;F:\Workspace\podofo-0.9.3\src;F:\Workspace\freetype-2.6.1\include;F:\Workspace\freetype-2.6.1\builds;F:\Workspace\podofo-0.9.3\vcincludes;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;BUILDING_PODOFO;_CRT_SECURE_NO_DEPRECATE;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;BUILDING_PODOFO;_CRT_SECURE_NO_DEPRECATE;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>F:\Workspace\jpeg-9a;F:\Workspace\lpng1618;F:\Workspace\zlib-1.2.8;F:\Workspace\podofo_build;F:\Workspace\podofo-0.9.3;F:\Workspace\podofo-0.9.3\src;F:\Workspace\freetype-2.6.1\include;F:\Workspace\freetype-2.6.1\builds;F:\Workspace\podofo-0.9.3\vcincludes;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>F:\Workspace\jpeg-9a;F:\Workspace\lpng1618;F:\Workspace\zlib-1.2.8;F:\Workspace\podofo_build;F:\Workspace\podofo-0.9.3;F:\Workspace\podofo-0.9.3\src;F:\Workspace\freetype-2.6.1\include;F:\Workspace\freetype-2.6.1\builds;F:\Workspace\podofo-0.9.3\vcincludes;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>F:\Workspace\jpeg-9a;F:\Workspace\lpng1618;F:\Workspace\zlib-1.2.8;F:\Workspace\podofo_build;F:\Workspace\podofo-0.9.3;F:\Workspace\podofo-0.9.3\src;F:\Workspace\freetype-2.6.1\include;F:\Workspace\freetype-2.6.1\builds;F:\Workspace\podofo-0.9.3\vcincludes;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>_WIN64;_WINDOWS;NDEBUG;BUILDING_PODOFO;_CRT_SECURE_NO_DEPRECATE;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;BUILDING_PODOFO;_CRT_SECURE_NO_DEPRECATE;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>F:\Workspace\jpeg-9a;F:\Workspace\lpng1618;F:\Workspace\zlib-1.2.8;F:\Workspace\podofo_build;F:\Workspace\podofo-0.9.3;F:\Workspace\podofo-0.9.3\src;F:\Workspace\freetype-2.6.1\include;F:\Workspace\freetype-2.6.1\builds;F:\Workspace\podofo-0.9.3\vcincludes;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>F:\Workspace\jpeg-9a;F:\Workspace\lpng1618;F:\Workspace\zlib-1.2.8;F:\Workspace\podofo_build;F:\Workspace\podofo-0.9.3;F:\Workspace\podofo-0.9.3\src;F:\Workspace\freetype-2.6.1\include;F:\Workspace\freetype-2.6.1\builds;F:\Workspace\podofo-0.9.3\vcincludes;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions)</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>F:\Workspace\jpeg-9a;F:\Workspace\lpng1618;F:\Workspace\zlib-1.2.8;F:\Workspace\podofo_build;F:\Workspace\podofo-0.9.3;F:\Workspace\podofo-0.9.3\src;F:\Workspace\freetype-2.6.1\include;F:\Workspace\freetype-2.6.1\builds;F:\Workspace\podofo-0.9.3\vcincludes;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;BUILDING_PODOFO;_CRT_SECURE_NO_DEPRECATE;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;BUILDING_PODOFO;_CRT_SECURE_NO_DEPRECATE;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>F:\Workspace\jpeg-9a;F:\Workspace\lpng1618;F:\Workspace\zlib-1.2.8;F:\Workspace\podofo_build;F:\Workspace\podofo-0.9.3;F:\Workspace\podofo-0.9.3\src;F:\Workspace\freetype-2.6.1\include;F:\Workspace\freetype-2.6.1\builds;F:\Workspace\podofo-0.9.3\vcincludes;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>F:\Workspace\jpeg-9a;F:\Workspace\lpng1618;F:\Workspace\zlib-1.2.8;F:\Workspace\podofo_build;F:\Workspace\podofo-0.9.3;F:\Workspace\podofo-0.9.3\src;F:\Workspace\freetype-2.6.1\include;F:\Workspace\freetype-2.6.1\builds;F:\Workspace\podofo-0.9.3\vcincludes;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>F:\Workspace\jpeg-9a;F:\Workspace\lpng1618;F:\Workspace\zlib-1.2.8;F:\Workspace\podofo_build;F:\Workspace\podofo-0.9.3;F:\Workspace\podofo-0.9.3\src;F:\Workspace\freetype-2.6.1\include;F:\Workspace\freetype-2.6.1\builds;F:\Workspace\podofo-0.9.3\vcincludes;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;BUILDING_PODOFO;_CRT_SECURE_NO_DEPRECATE;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;BUILDING_PODOFO;_CRT_SECURE_NO_DEPRECATE;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>F:\Workspace\jpeg-9a;F:\Workspace\lpng1618;F:\Workspace\zlib-1.2.8;F:\Workspace\podofo_build;F:\Workspace\podofo-0.9.3;F:\Workspace\podofo-0.9.3\src;F:\Workspace\freetype-2.6.1\include;F:\Workspace\freetype-2.6.1\builds;F:\Workspace\podofo-0.9.3\vcincludes;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>F:\Workspace\jpeg-9a;F:\Workspace\lpng1618;F:\Workspace\zlib-1.2.8;F:\Workspace\podofo_build;F:\Workspace\podofo-0.9.3;F:\Workspace\podofo-0.9.3\src;F:\Workspace\freetype-2.6.1\include;F:\Workspace\freetype-2.6.1\builds;F:\Workspace\podofo-0.9.3\vcincludes;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>F:\Workspace\jpeg-9a;F:\Workspace\lpng1618;F:\Workspace\zlib-1.2.8;F:\Workspace\podofo_build;F:\Workspace\podofo-0.9.3;F:\Workspace\podofo-0.9.3\src;F:\Workspace\freetype-2.6.1\include;F:\Workspace\freetype-2.6.1\builds;F:\Workspace\podofo-0.9.3\vcincludes;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;BUILDING_PODOFO;_CRT_SECURE_NO_DEPRECATE;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;BUILDING_PODOFO;_CRT_SECURE_NO_DEPRECATE;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>F:\Workspace\jpeg-9a;F:\Workspace\lpng1618;F:\Workspace\zlib-1.2.8;F:\Workspace\podofo_build;F:\Workspace\podofo-0.9.3;F:\Workspace\podofo-0.9.3\src;F:\Workspace\freetype-2.6.1\include;F:\Workspace\freetype-2.6.1\builds;F:\Workspace\podofo-0.9.3\vcincludes;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>F:\Workspace\jpeg-9a;F:\Workspace\lpng1618;F:\Workspace\zlib-1.2.8;F:\Workspace\podofo_build;F:\Workspace\podofo-0.9.3;F:\Workspace\podofo-0.9.3\src;F:\Workspace\freetype-2.6.1\include;F:\Workspace\freetype-2.6.1\builds;F:\Workspace\podofo-0.9.3\vcincludes;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>F:\Workspace\jpeg-9a;F:\Workspace\lpng1618;F:\Workspace\zlib-1.2.8;F:\Workspace\podofo_build;F:\Workspace\podofo-0.9.3;F:\Workspace\podofo-0.9.3\src;F:\Workspace\freetype-2.6.1\include;F:\Workspace\freetype-2.6.1\builds;F:\Workspace\podofo-0.9.3\vcincludes;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;BUILDING_PODOFO;_CRT_SECURE_NO_DEPRECATE;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;BUILDING_PODOFO;_CRT_SECURE_NO_DEPRECATE;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>F:\Workspace\jpeg-9a;F:\Workspace\lpng1618;F:\Workspace\zlib-1.2.8;F:\Workspace\podofo_build;F:\Workspace\podofo-0.9.3;F:\Workspace\podofo-0.9.3\src;F:\Workspace\freetype-2.6.1\include;F:\Workspace\freetype-2.6.1\builds;F:\Workspace\podofo-0.9.3\vcincludes;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>F:\Workspace\jpeg-9a;F:\Workspace\lpng1618;F:\Workspace\zlib-1.2.8;F:\Workspace\podofo_build;F:\Workspace\podofo-0.9.3;F:\Workspace\podofo-0.9.3\src;F:\Workspace\freetype-2.6.1\include;F:\Workspace\freetype-2.6.1\builds;F:\Workspace\podofo-0.9.3\vcincludes;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\Workspace\podofo-0.9.3\src\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule F:/Workspace/podofo-0.9.3/src/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule F:/Workspace/podofo-0.9.3/src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HF:/Workspace/podofo-0.9.3 -BF:/Workspace/podofo_build --check-stamp-file F:\Workspace\podofo_build\src\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HF:/Workspace/podofo-0.9.3 -BF:/Workspace/podofo_build --check-stamp-file F:\Workspace\podofo_build\src\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">F:/Workspace/podofo-0.9.3/src/CMakeLists.txt;F:\Workspace\podofo-0.9.3\src\CMakeLists.txt;F:\Workspace\podofo-0.9.3\src\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/Workspace/podofo-0.9.3/src/CMakeLists.txt;F:\Workspace\podofo-0.9.3\src\CMakeLists.txt;F:\Workspace\podofo-0.9.3\src\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">F:\Workspace\podofo_build\src\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\Workspace\podofo_build\src\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule F:/Workspace/podofo-0.9.3/src/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule F:/Workspace/podofo-0.9.3/src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HF:/Workspace/podofo-0.9.3 -BF:/Workspace/podofo_build --check-stamp-file F:\Workspace\podofo_build\src\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HF:/Workspace/podofo-0.9.3 -BF:/Workspace/podofo_build --check-stamp-file F:\Workspace\podofo_build\src\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">F:/Workspace/podofo-0.9.3/src/CMakeLists.txt;F:\Workspace\podofo-0.9.3\src\CMakeLists.txt;F:\Workspace\podofo-0.9.3\src\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/Workspace/podofo-0.9.3/src/CMakeLists.txt;F:\Workspace\podofo-0.9.3\src\CMakeLists.txt;F:\Workspace\podofo-0.9.3\src\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">F:\Workspace\podofo_build\src\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\Workspace\podofo_build\src\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule F:/Workspace/podofo-0.9.3/src/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule F:/Workspace/podofo-0.9.3/src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HF:/Workspace/podofo-0.9.3 -BF:/Workspace/podofo_build --check-stamp-file F:\Workspace\podofo_build\src\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HF:/Workspace/podofo-0.9.3 -BF:/Workspace/podofo_build --check-stamp-file F:\Workspace\podofo_build\src\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">F:/Workspace/podofo-0.9.3/src/CMakeLists.txt;F:\Workspace\podofo-0.9.3\src\CMakeLists.txt;F:\Workspace\podofo-0.9.3\src\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">F:/Workspace/podofo-0.9.3/src/CMakeLists.txt;F:\Workspace\podofo-0.9.3\src\CMakeLists.txt;F:\Workspace\podofo-0.9.3\src\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">F:\Workspace\podofo_build\src\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">F:\Workspace\podofo_build\src\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule F:/Workspace/podofo-0.9.3/src/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule F:/Workspace/podofo-0.9.3/src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HF:/Workspace/podofo-0.9.3 -BF:/Workspace/podofo_build --check-stamp-file F:\Workspace\podofo_build\src\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HF:/Workspace/podofo-0.9.3 -BF:/Workspace/podofo_build --check-stamp-file F:\Workspace\podofo_build\src\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">F:/Workspace/podofo-0.9.3/src/CMakeLists.txt;F:\Workspace\podofo-0.9.3\src\CMakeLists.txt;F:\Workspace\podofo-0.9.3\src\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">F:/Workspace/podofo-0.9.3/src/CMakeLists.txt;F:\Workspace\podofo-0.9.3\src\CMakeLists.txt;F:\Workspace\podofo-0.9.3\src\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">F:\Workspace\podofo_build\src\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">F:\Workspace\podofo_build\src\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="F:\Workspace\podofo-0.9.3\src\base\PdfArray.cpp" />
+    <ClCompile Include="F:\Workspace\podofo-0.9.3\src\base\PdfCanvas.cpp" />
+    <ClCompile Include="F:\Workspace\podofo-0.9.3\src\base\PdfColor.cpp" />
+    <ClCompile Include="F:\Workspace\podofo-0.9.3\src\base\PdfContentsTokenizer.cpp" />
+    <ClCompile Include="F:\Workspace\podofo-0.9.3\src\base\PdfData.cpp" />
+    <ClCompile Include="F:\Workspace\podofo-0.9.3\src\base\PdfDataType.cpp" />
+    <ClCompile Include="F:\Workspace\podofo-0.9.3\src\base\PdfDate.cpp" />
+    <ClCompile Include="F:\Workspace\podofo-0.9.3\src\base\PdfDictionary.cpp" />
+    <ClCompile Include="F:\Workspace\podofo-0.9.3\src\base\PdfEncoding.cpp" />
+    <ClCompile Include="F:\Workspace\podofo-0.9.3\src\base\PdfEncodingFactory.cpp" />
+    <ClCompile Include="F:\Workspace\podofo-0.9.3\src\base\PdfEncrypt.cpp" />
+    <ClCompile Include="F:\Workspace\podofo-0.9.3\src\base\PdfError.cpp" />
+    <ClCompile Include="F:\Workspace\podofo-0.9.3\src\base\PdfFileStream.cpp" />
+    <ClCompile Include="F:\Workspace\podofo-0.9.3\src\base\PdfFilter.cpp" />
+    <ClCompile Include="F:\Workspace\podofo-0.9.3\src\base\PdfFiltersPrivate.cpp" />
+    <ClCompile Include="F:\Workspace\podofo-0.9.3\src\base\PdfImmediateWriter.cpp" />
+    <ClCompile Include="F:\Workspace\podofo-0.9.3\src\base\PdfInputDevice.cpp" />
+    <ClCompile Include="F:\Workspace\podofo-0.9.3\src\base\PdfInputStream.cpp" />
+    <ClCompile Include="F:\Workspace\podofo-0.9.3\src\base\PdfLocale.cpp" />
+    <ClCompile Include="F:\Workspace\podofo-0.9.3\src\base\PdfMemStream.cpp" />
+    <ClCompile Include="F:\Workspace\podofo-0.9.3\src\base\PdfMemoryManagement.cpp" />
+    <ClCompile Include="F:\Workspace\podofo-0.9.3\src\base\PdfName.cpp" />
+    <ClCompile Include="F:\Workspace\podofo-0.9.3\src\base\PdfObject.cpp" />
+    <ClCompile Include="F:\Workspace\podofo-0.9.3\src\base\PdfObjectStreamParserObject.cpp" />
+    <ClCompile Include="F:\Workspace\podofo-0.9.3\src\base\PdfOutputDevice.cpp" />
+    <ClCompile Include="F:\Workspace\podofo-0.9.3\src\base\PdfOutputStream.cpp" />
+    <ClCompile Include="F:\Workspace\podofo-0.9.3\src\base\PdfParser.cpp" />
+    <ClCompile Include="F:\Workspace\podofo-0.9.3\src\base\PdfParserObject.cpp" />
+    <ClCompile Include="F:\Workspace\podofo-0.9.3\src\base\PdfRect.cpp" />
+    <ClCompile Include="F:\Workspace\podofo-0.9.3\src\base\PdfRefCountedBuffer.cpp" />
+    <ClCompile Include="F:\Workspace\podofo-0.9.3\src\base\PdfRefCountedInputDevice.cpp" />
+    <ClCompile Include="F:\Workspace\podofo-0.9.3\src\base\PdfReference.cpp" />
+    <ClCompile Include="F:\Workspace\podofo-0.9.3\src\base\PdfSigIncWriter.cpp" />
+    <ClCompile Include="F:\Workspace\podofo-0.9.3\src\base\PdfStream.cpp" />
+    <ClCompile Include="F:\Workspace\podofo-0.9.3\src\base\PdfString.cpp" />
+    <ClCompile Include="F:\Workspace\podofo-0.9.3\src\base\PdfTokenizer.cpp" />
+    <ClCompile Include="F:\Workspace\podofo-0.9.3\src\base\PdfVariant.cpp" />
+    <ClCompile Include="F:\Workspace\podofo-0.9.3\src\base\PdfVecObjects.cpp" />
+    <ClCompile Include="F:\Workspace\podofo-0.9.3\src\base\PdfWriter.cpp" />
+    <ClCompile Include="F:\Workspace\podofo-0.9.3\src\base\PdfXRef.cpp" />
+    <ClCompile Include="F:\Workspace\podofo-0.9.3\src\base\PdfXRefStream.cpp" />
+    <ClCompile Include="F:\Workspace\podofo-0.9.3\src\base\PdfXRefStreamParserObject.cpp" />
+    <ClCompile Include="F:\Workspace\podofo-0.9.3\src\doc\PdfAcroForm.cpp" />
+    <ClCompile Include="F:\Workspace\podofo-0.9.3\src\doc\PdfAction.cpp" />
+    <ClCompile Include="F:\Workspace\podofo-0.9.3\src\doc\PdfAnnotation.cpp" />
+    <ClCompile Include="F:\Workspace\podofo-0.9.3\src\doc\PdfCMapEncoding.cpp" />
+    <ClCompile Include="F:\Workspace\podofo-0.9.3\src\doc\PdfContents.cpp" />
+    <ClCompile Include="F:\Workspace\podofo-0.9.3\src\doc\PdfDestination.cpp" />
+    <ClCompile Include="F:\Workspace\podofo-0.9.3\src\doc\PdfDifferenceEncoding.cpp" />
+    <ClCompile Include="F:\Workspace\podofo-0.9.3\src\doc\PdfDocument.cpp" />
+    <ClCompile Include="F:\Workspace\podofo-0.9.3\src\doc\PdfElement.cpp" />
+    <ClCompile Include="F:\Workspace\podofo-0.9.3\src\doc\PdfEncodingObjectFactory.cpp" />
+    <ClCompile Include="F:\Workspace\podofo-0.9.3\src\doc\PdfExtGState.cpp" />
+    <ClCompile Include="F:\Workspace\podofo-0.9.3\src\doc\PdfField.cpp" />
+    <ClCompile Include="F:\Workspace\podofo-0.9.3\src\doc\PdfFileSpec.cpp" />
+    <ClCompile Include="F:\Workspace\podofo-0.9.3\src\doc\PdfFont.cpp" />
+    <ClCompile Include="F:\Workspace\podofo-0.9.3\src\doc\PdfFontCID.cpp" />
+    <ClCompile Include="F:\Workspace\podofo-0.9.3\src\doc\PdfFontCache.cpp" />
+    <ClCompile Include="F:\Workspace\podofo-0.9.3\src\doc\PdfFontConfigWrapper.cpp" />
+    <ClCompile Include="F:\Workspace\podofo-0.9.3\src\doc\PdfFontFactory.cpp" />
+    <ClCompile Include="F:\Workspace\podofo-0.9.3\src\doc\PdfFontMetrics.cpp" />
+    <ClCompile Include="F:\Workspace\podofo-0.9.3\src\doc\PdfFontMetricsBase14.cpp" />
+    <ClCompile Include="F:\Workspace\podofo-0.9.3\src\doc\PdfFontMetricsFreetype.cpp" />
+    <ClCompile Include="F:\Workspace\podofo-0.9.3\src\doc\PdfFontMetricsObject.cpp" />
+    <ClCompile Include="F:\Workspace\podofo-0.9.3\src\doc\PdfFontSimple.cpp" />
+    <ClCompile Include="F:\Workspace\podofo-0.9.3\src\doc\PdfFontTTFSubset.cpp" />
+    <ClCompile Include="F:\Workspace\podofo-0.9.3\src\doc\PdfFontTrueType.cpp" />
+    <ClCompile Include="F:\Workspace\podofo-0.9.3\src\doc\PdfFontType1.cpp" />
+    <ClCompile Include="F:\Workspace\podofo-0.9.3\src\doc\PdfFontType3.cpp" />
+    <ClCompile Include="F:\Workspace\podofo-0.9.3\src\doc\PdfFontType1Base14.cpp" />
+    <ClCompile Include="F:\Workspace\podofo-0.9.3\src\doc\PdfFunction.cpp" />
+    <ClCompile Include="F:\Workspace\podofo-0.9.3\src\doc\PdfHintStream.cpp" />
+    <ClCompile Include="F:\Workspace\podofo-0.9.3\src\doc\PdfIdentityEncoding.cpp" />
+    <ClCompile Include="F:\Workspace\podofo-0.9.3\src\doc\PdfImage.cpp" />
+    <ClCompile Include="F:\Workspace\podofo-0.9.3\src\doc\PdfInfo.cpp" />
+    <ClCompile Include="F:\Workspace\podofo-0.9.3\src\doc\PdfMemDocument.cpp" />
+    <ClCompile Include="F:\Workspace\podofo-0.9.3\src\doc\PdfNamesTree.cpp" />
+    <ClCompile Include="F:\Workspace\podofo-0.9.3\src\doc\PdfOutlines.cpp" />
+    <ClCompile Include="F:\Workspace\podofo-0.9.3\src\doc\PdfPage.cpp" />
+    <ClCompile Include="F:\Workspace\podofo-0.9.3\src\doc\PdfPagesTree.cpp" />
+    <ClCompile Include="F:\Workspace\podofo-0.9.3\src\doc\PdfPagesTreeCache.cpp" />
+    <ClCompile Include="F:\Workspace\podofo-0.9.3\src\doc\PdfPainter.cpp" />
+    <ClCompile Include="F:\Workspace\podofo-0.9.3\src\doc\PdfPainterMM.cpp" />
+    <ClCompile Include="F:\Workspace\podofo-0.9.3\src\doc\PdfShadingPattern.cpp" />
+    <ClCompile Include="F:\Workspace\podofo-0.9.3\src\doc\PdfSigIncMemDocument.cpp" />
+    <ClCompile Include="F:\Workspace\podofo-0.9.3\src\doc\PdfSigIncPainter.cpp" />
+    <ClCompile Include="F:\Workspace\podofo-0.9.3\src\doc\PdfSigIncSignatureField.cpp" />
+    <ClCompile Include="F:\Workspace\podofo-0.9.3\src\doc\PdfSignOutputDevice.cpp" />
+    <ClCompile Include="F:\Workspace\podofo-0.9.3\src\doc\PdfSignatureField.cpp" />
+    <ClCompile Include="F:\Workspace\podofo-0.9.3\src\doc\PdfStreamedDocument.cpp" />
+    <ClCompile Include="F:\Workspace\podofo-0.9.3\src\doc\PdfTable.cpp" />
+    <ClCompile Include="F:\Workspace\podofo-0.9.3\src\doc\PdfTilingPattern.cpp" />
+    <ClCompile Include="F:\Workspace\podofo-0.9.3\src\doc\PdfXObject.cpp" />
+    <ResourceCompile Include="F:\Workspace\podofo-0.9.3\src\doc\podofo-doc.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="F:/Workspace/podofo_build/ZERO_CHECK.vcxproj">
+      <Project>1BE7BB18-DFC9-367E-AB99-6769312C9877</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

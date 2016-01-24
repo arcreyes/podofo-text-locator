@@ -7,6 +7,8 @@
 #include "TextReader.h"
 #include "ObjectExtractor.h"
 
+#include "VdpPdfParser.h"
+
 #include <string>
 
 using namespace std;
@@ -71,14 +73,73 @@ int doTest4(string strPath, string strFileName)
 	return 0;
 }
 
-int _tmain(int argc, _TCHAR* argv[])
+int doTest5(const char *pszInputFolder, const char *pszOutputFolder, const char *pszPdfPath, const char *pszTemplateFilePath, int templateCount)
+{
+	VdpPdfParser parser(pszInputFolder, pszOutputFolder);
+
+	int ret = parser.ParsePdfFile(pszPdfPath, pszTemplateFilePath, templateCount);
+	if (ret < 0)
+	{
+		printf("ret=[%d]\n", ret);
+	}
+	return ret;
+}
+
+#define INPUT_FOLDER	"F:\\VS2012\\podofo-text-locator\\PDFParser\\Test Data"
+#define OUTPUT_FOLDER	"F:\\VS2012\\podofo-text-locator\\PDFParser\\Test Data\\output"
+
+typedef struct
+{
+	const char *pszInputFolder;
+	const char *pszOutputFolder;
+	const char *pszPdfName;
+	int			templateCount;
+} TParamaters;
+
+static TParamaters params[] =
+{
+	{ INPUT_FOLDER, OUTPUT_FOLDER, "1_Weseraue500page.pdf", 1 }, //0
+	{ INPUT_FOLDER, OUTPUT_FOLDER, "1_Weseraue500page_from_CheckPPML.pdf", 1 }, //1
+
+	// terminator
+	{ NULL, NULL, 0 }
+};
+
+std::string PathCombine(string path, string filename)
+{
+	int len = (int)path.length();
+
+	if (path.at(len - 1) != '\\')
+	{
+		path.append("\\");
+	}
+
+	return path + filename;
+}
+
+//std::string PathRemoveExtension(string filePath)
+//{
+//	int index = filePath.find_last_of(".");
+//}
+
+int doTest(int testCase)
+{
+	char szTemplateFilename[MAX_PATH] = "";
+	sprintf(szTemplateFilename, "template%d.pdf", testCase);
+
+	return doTest5(params[testCase].pszInputFolder, 
+		params[testCase].pszOutputFolder, 
+		params[testCase].pszPdfName,
+		szTemplateFilename,
+		params[testCase].templateCount);
+}
+
+int main(int argc, char* argv[])
 {
 
-	string strPath = "F:\\VS2012\\PDFParser\\Test Data\\";
-	string strFileName = "60 K Pages_template.pdf";
-	//string strFileName = "1_Weseraue500page.pdf";
-	
-	doTest1(strPath, strFileName);
+
+
+	doTest(0);
 
 	system( "pause" );
 

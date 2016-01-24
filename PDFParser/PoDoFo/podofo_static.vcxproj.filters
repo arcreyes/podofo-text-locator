@@ -1,0 +1,297 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="F:\Workspace\podofo-0.9.3\src\base\PdfArray.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Workspace\podofo-0.9.3\src\base\PdfCanvas.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Workspace\podofo-0.9.3\src\base\PdfColor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Workspace\podofo-0.9.3\src\base\PdfContentsTokenizer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Workspace\podofo-0.9.3\src\base\PdfData.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Workspace\podofo-0.9.3\src\base\PdfDataType.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Workspace\podofo-0.9.3\src\base\PdfDate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Workspace\podofo-0.9.3\src\base\PdfDictionary.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Workspace\podofo-0.9.3\src\base\PdfEncoding.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Workspace\podofo-0.9.3\src\base\PdfEncodingFactory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Workspace\podofo-0.9.3\src\base\PdfEncrypt.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Workspace\podofo-0.9.3\src\base\PdfError.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Workspace\podofo-0.9.3\src\base\PdfFileStream.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Workspace\podofo-0.9.3\src\base\PdfFilter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Workspace\podofo-0.9.3\src\base\PdfFiltersPrivate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Workspace\podofo-0.9.3\src\base\PdfImmediateWriter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Workspace\podofo-0.9.3\src\base\PdfInputDevice.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Workspace\podofo-0.9.3\src\base\PdfInputStream.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Workspace\podofo-0.9.3\src\base\PdfLocale.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Workspace\podofo-0.9.3\src\base\PdfMemStream.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Workspace\podofo-0.9.3\src\base\PdfMemoryManagement.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Workspace\podofo-0.9.3\src\base\PdfName.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Workspace\podofo-0.9.3\src\base\PdfObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Workspace\podofo-0.9.3\src\base\PdfObjectStreamParserObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Workspace\podofo-0.9.3\src\base\PdfOutputDevice.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Workspace\podofo-0.9.3\src\base\PdfOutputStream.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Workspace\podofo-0.9.3\src\base\PdfParser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Workspace\podofo-0.9.3\src\base\PdfParserObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Workspace\podofo-0.9.3\src\base\PdfRect.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Workspace\podofo-0.9.3\src\base\PdfRefCountedBuffer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Workspace\podofo-0.9.3\src\base\PdfRefCountedInputDevice.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Workspace\podofo-0.9.3\src\base\PdfReference.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Workspace\podofo-0.9.3\src\base\PdfSigIncWriter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Workspace\podofo-0.9.3\src\base\PdfStream.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Workspace\podofo-0.9.3\src\base\PdfString.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Workspace\podofo-0.9.3\src\base\PdfTokenizer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Workspace\podofo-0.9.3\src\base\PdfVariant.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Workspace\podofo-0.9.3\src\base\PdfVecObjects.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Workspace\podofo-0.9.3\src\base\PdfWriter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Workspace\podofo-0.9.3\src\base\PdfXRef.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Workspace\podofo-0.9.3\src\base\PdfXRefStream.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Workspace\podofo-0.9.3\src\base\PdfXRefStreamParserObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Workspace\podofo-0.9.3\src\doc\PdfAcroForm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Workspace\podofo-0.9.3\src\doc\PdfAction.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Workspace\podofo-0.9.3\src\doc\PdfAnnotation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Workspace\podofo-0.9.3\src\doc\PdfCMapEncoding.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Workspace\podofo-0.9.3\src\doc\PdfContents.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Workspace\podofo-0.9.3\src\doc\PdfDestination.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Workspace\podofo-0.9.3\src\doc\PdfDifferenceEncoding.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Workspace\podofo-0.9.3\src\doc\PdfDocument.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Workspace\podofo-0.9.3\src\doc\PdfElement.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Workspace\podofo-0.9.3\src\doc\PdfEncodingObjectFactory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Workspace\podofo-0.9.3\src\doc\PdfExtGState.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Workspace\podofo-0.9.3\src\doc\PdfField.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Workspace\podofo-0.9.3\src\doc\PdfFileSpec.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Workspace\podofo-0.9.3\src\doc\PdfFont.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Workspace\podofo-0.9.3\src\doc\PdfFontCID.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Workspace\podofo-0.9.3\src\doc\PdfFontCache.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Workspace\podofo-0.9.3\src\doc\PdfFontConfigWrapper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Workspace\podofo-0.9.3\src\doc\PdfFontFactory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Workspace\podofo-0.9.3\src\doc\PdfFontMetrics.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Workspace\podofo-0.9.3\src\doc\PdfFontMetricsBase14.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Workspace\podofo-0.9.3\src\doc\PdfFontMetricsFreetype.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Workspace\podofo-0.9.3\src\doc\PdfFontMetricsObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Workspace\podofo-0.9.3\src\doc\PdfFontSimple.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Workspace\podofo-0.9.3\src\doc\PdfFontTTFSubset.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Workspace\podofo-0.9.3\src\doc\PdfFontTrueType.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Workspace\podofo-0.9.3\src\doc\PdfFontType1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Workspace\podofo-0.9.3\src\doc\PdfFontType3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Workspace\podofo-0.9.3\src\doc\PdfFontType1Base14.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Workspace\podofo-0.9.3\src\doc\PdfFunction.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Workspace\podofo-0.9.3\src\doc\PdfHintStream.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Workspace\podofo-0.9.3\src\doc\PdfIdentityEncoding.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Workspace\podofo-0.9.3\src\doc\PdfImage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Workspace\podofo-0.9.3\src\doc\PdfInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Workspace\podofo-0.9.3\src\doc\PdfMemDocument.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Workspace\podofo-0.9.3\src\doc\PdfNamesTree.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Workspace\podofo-0.9.3\src\doc\PdfOutlines.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Workspace\podofo-0.9.3\src\doc\PdfPage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Workspace\podofo-0.9.3\src\doc\PdfPagesTree.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Workspace\podofo-0.9.3\src\doc\PdfPagesTreeCache.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Workspace\podofo-0.9.3\src\doc\PdfPainter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Workspace\podofo-0.9.3\src\doc\PdfPainterMM.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Workspace\podofo-0.9.3\src\doc\PdfShadingPattern.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Workspace\podofo-0.9.3\src\doc\PdfSigIncMemDocument.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Workspace\podofo-0.9.3\src\doc\PdfSigIncPainter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Workspace\podofo-0.9.3\src\doc\PdfSigIncSignatureField.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Workspace\podofo-0.9.3\src\doc\PdfSignOutputDevice.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Workspace\podofo-0.9.3\src\doc\PdfSignatureField.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Workspace\podofo-0.9.3\src\doc\PdfStreamedDocument.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Workspace\podofo-0.9.3\src\doc\PdfTable.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Workspace\podofo-0.9.3\src\doc\PdfTilingPattern.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Workspace\podofo-0.9.3\src\doc\PdfXObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\Workspace\podofo-0.9.3\src\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="F:\Workspace\podofo-0.9.3\src\doc\podofo-doc.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{9F340D98-DC72-3166-B3AB-23BD63435939}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

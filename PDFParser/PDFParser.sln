@@ -5,22 +5,52 @@ VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PDFParser", "PDFParser\PDFParser.vcxproj", "{E08F3EE5-BAD1-4CA5-B220-D4FF18EA3406}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "podofo_static", "PoDoFo\podofo_static.vcxproj", "{2DBA4539-10F8-3578-83F9-D6FAEE196ED0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
 		Debug|x64 = Debug|x64
+		MinSizeRel|Win32 = MinSizeRel|Win32
+		MinSizeRel|x64 = MinSizeRel|x64
 		Release|Win32 = Release|Win32
 		Release|x64 = Release|x64
+		RelWithDebInfo|Win32 = RelWithDebInfo|Win32
+		RelWithDebInfo|x64 = RelWithDebInfo|x64
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{E08F3EE5-BAD1-4CA5-B220-D4FF18EA3406}.Debug|Win32.ActiveCfg = Debug|Win32
 		{E08F3EE5-BAD1-4CA5-B220-D4FF18EA3406}.Debug|Win32.Build.0 = Debug|Win32
 		{E08F3EE5-BAD1-4CA5-B220-D4FF18EA3406}.Debug|x64.ActiveCfg = Debug|x64
 		{E08F3EE5-BAD1-4CA5-B220-D4FF18EA3406}.Debug|x64.Build.0 = Debug|x64
+		{E08F3EE5-BAD1-4CA5-B220-D4FF18EA3406}.MinSizeRel|Win32.ActiveCfg = Release|Win32
+		{E08F3EE5-BAD1-4CA5-B220-D4FF18EA3406}.MinSizeRel|Win32.Build.0 = Release|Win32
+		{E08F3EE5-BAD1-4CA5-B220-D4FF18EA3406}.MinSizeRel|x64.ActiveCfg = Release|x64
+		{E08F3EE5-BAD1-4CA5-B220-D4FF18EA3406}.MinSizeRel|x64.Build.0 = Release|x64
 		{E08F3EE5-BAD1-4CA5-B220-D4FF18EA3406}.Release|Win32.ActiveCfg = Release|Win32
 		{E08F3EE5-BAD1-4CA5-B220-D4FF18EA3406}.Release|Win32.Build.0 = Release|Win32
 		{E08F3EE5-BAD1-4CA5-B220-D4FF18EA3406}.Release|x64.ActiveCfg = Release|x64
 		{E08F3EE5-BAD1-4CA5-B220-D4FF18EA3406}.Release|x64.Build.0 = Release|x64
+		{E08F3EE5-BAD1-4CA5-B220-D4FF18EA3406}.RelWithDebInfo|Win32.ActiveCfg = Release|Win32
+		{E08F3EE5-BAD1-4CA5-B220-D4FF18EA3406}.RelWithDebInfo|Win32.Build.0 = Release|Win32
+		{E08F3EE5-BAD1-4CA5-B220-D4FF18EA3406}.RelWithDebInfo|x64.ActiveCfg = Release|x64
+		{E08F3EE5-BAD1-4CA5-B220-D4FF18EA3406}.RelWithDebInfo|x64.Build.0 = Release|x64
+		{2DBA4539-10F8-3578-83F9-D6FAEE196ED0}.Debug|Win32.ActiveCfg = Debug|Win32
+		{2DBA4539-10F8-3578-83F9-D6FAEE196ED0}.Debug|Win32.Build.0 = Debug|Win32
+		{2DBA4539-10F8-3578-83F9-D6FAEE196ED0}.Debug|x64.ActiveCfg = Debug|x64
+		{2DBA4539-10F8-3578-83F9-D6FAEE196ED0}.Debug|x64.Build.0 = Debug|x64
+		{2DBA4539-10F8-3578-83F9-D6FAEE196ED0}.MinSizeRel|Win32.ActiveCfg = MinSizeRel|Win32
+		{2DBA4539-10F8-3578-83F9-D6FAEE196ED0}.MinSizeRel|Win32.Build.0 = MinSizeRel|Win32
+		{2DBA4539-10F8-3578-83F9-D6FAEE196ED0}.MinSizeRel|x64.ActiveCfg = MinSizeRel|x64
+		{2DBA4539-10F8-3578-83F9-D6FAEE196ED0}.MinSizeRel|x64.Build.0 = MinSizeRel|x64
+		{2DBA4539-10F8-3578-83F9-D6FAEE196ED0}.Release|Win32.ActiveCfg = Release|Win32
+		{2DBA4539-10F8-3578-83F9-D6FAEE196ED0}.Release|Win32.Build.0 = Release|Win32
+		{2DBA4539-10F8-3578-83F9-D6FAEE196ED0}.Release|x64.ActiveCfg = Release|x64
+		{2DBA4539-10F8-3578-83F9-D6FAEE196ED0}.Release|x64.Build.0 = Release|x64
+		{2DBA4539-10F8-3578-83F9-D6FAEE196ED0}.RelWithDebInfo|Win32.ActiveCfg = RelWithDebInfo|Win32
+		{2DBA4539-10F8-3578-83F9-D6FAEE196ED0}.RelWithDebInfo|Win32.Build.0 = RelWithDebInfo|Win32
+		{2DBA4539-10F8-3578-83F9-D6FAEE196ED0}.RelWithDebInfo|x64.ActiveCfg = RelWithDebInfo|x64
+		{2DBA4539-10F8-3578-83F9-D6FAEE196ED0}.RelWithDebInfo|x64.Build.0 = RelWithDebInfo|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
