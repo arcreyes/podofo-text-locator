@@ -52,7 +52,7 @@ int VdpPage::FindObject(VdpObject *pObject)
 		VdpObject *o = this->GetObject(i);
 		if (o->IsText() == pObject->IsText())
 		{
-			if (*static_cast<VdpText*>(o) == *static_cast<VdpText*>(pObject))
+			if (*static_cast<VdpTextObject*>(o) == *static_cast<VdpTextObject*>(pObject))
 			{
 				break;
 			}

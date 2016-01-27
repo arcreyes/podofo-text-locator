@@ -18,7 +18,7 @@ public:
 		return m_currentTransformMatrix;
 	}
 
-	inline void GetNonStrokingColor(VdpColor nonStrokingColor)
+	inline void SetNonStrokingColor(VdpColor nonStrokingColor)
 	{
 		m_nonStrokingColor = nonStrokingColor;
 	}
@@ -27,8 +27,18 @@ public:
 		return m_nonStrokingColor;
 	}
 
+	inline void SetStrokingColor(VdpColor strokingColor)
+	{
+		m_strokingColor = strokingColor;
+	}
+	inline const VdpColor & GetStrokingColor()
+	{
+		return m_strokingColor;
+	}
+
 protected:
 	VdpMatrix m_currentTransformMatrix;
 	VdpColor m_nonStrokingColor;
+	VdpColor m_strokingColor;
 };
 

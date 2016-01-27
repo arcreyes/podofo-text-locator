@@ -6,19 +6,19 @@
 #include "VdpTextState.h"
 #include "VdpColor.h"
 
-class VdpText : public VdpObject
+class VdpTextObject : public VdpObject
 {
 public:
-	VdpText();
-	VdpText(std::string rawData, bool bArray, double xpos, double ypos, VdpTextState textState, VdpGraphicsState graphState, VdpRect boundingBox);
-	~VdpText();
+	VdpTextObject();
+	VdpTextObject(std::string rawData, bool bArray, double xpos, double ypos, VdpTextState textState, VdpGraphicsState graphState, VdpRect boundingBox);
+	~VdpTextObject();
 
 	inline const std::string & GetRawData(void)
 	{
 		return m_rawData;
 	}
 
-	bool operator==(VdpText & other)
+	bool operator==(VdpTextObject & other)
 	{
 		return (*this).m_rawData == other.m_rawData &&
 			(*this).m_bArray == other.m_bArray &&
@@ -27,7 +27,7 @@ public:
 			(*this).m_ypos == other.m_ypos;
 	}
 
-	bool operator!=(VdpText & other)
+	bool operator!=(VdpTextObject & other)
 	{
 		return !((*this) == other);
 	}

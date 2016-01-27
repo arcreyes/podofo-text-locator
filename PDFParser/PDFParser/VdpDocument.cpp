@@ -112,7 +112,7 @@ void VdpDocument::Dump(const char *pszFilePath)
 
 			if (o->IsText())
 			{
-				VdpText *t = static_cast<VdpText*>(o);
+				VdpTextObject *t = static_cast<VdpTextObject*>(o);
 				myfile << "\t" << t->GetRawData() << "\n";
 			}
 		}

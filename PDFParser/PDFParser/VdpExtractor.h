@@ -44,6 +44,25 @@ protected:
 		ePdfKeyword_TextShowSpacing,
 		ePdfKeyword_TextShowLeading,
 
+		ePdfKeyword_Move,
+		ePdfKeyword_Line,
+		ePdfKeyword_CubicBeizer,
+		ePdfKeyword_CubicBeizer2,
+		ePdfKeyword_CubicBeizer3,
+		ePdfKeyword_ClosePath,
+		ePdfKeyword_Rectangle,
+
+		ePdfKeyword_StrokePath,
+		ePdfKeyword_CloseAndStrokePath,
+		ePdfKeyword_FillPathNonZero,
+		ePdfKeyword_FillPathNonZero2,
+		ePdfKeyword_FillPathEvenOdd,
+		ePdfKeyword_FillStrokePathNonZero,
+		ePdfKeyword_FillStrokePathEvenOdd,
+		ePdfKeyword_CloseFillStrokePathNonZero,
+		ePdfKeyword_CloseFillStrokePathEvenOdd,
+		ePdfKeyword_EndPath,
+
 
 		ePdfKeyword_Undefined = 0xFFFF,
 	};

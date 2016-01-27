@@ -1,7 +1,7 @@
-#include "VdpText.h"
+#include "VdpTextObject.h"
 
 
-VdpText::VdpText()
+VdpTextObject::VdpTextObject()
 	: VdpObject(eDataType_Text),
 	m_rawData(""),
 	m_bArray(false),
@@ -10,7 +10,7 @@ VdpText::VdpText()
 {
 }
 
-VdpText::VdpText(std::string rawData, bool bArray, double xpos, double ypos, VdpTextState textState, VdpGraphicsState graphState, VdpRect boundingBox)
+VdpTextObject::VdpTextObject(std::string rawData, bool bArray, double xpos, double ypos, VdpTextState textState, VdpGraphicsState graphState, VdpRect boundingBox)
 	: VdpObject(graphState, boundingBox, eDataType_Text),
 	m_rawData(rawData),
 	m_bArray(bArray),
@@ -20,6 +20,6 @@ VdpText::VdpText(std::string rawData, bool bArray, double xpos, double ypos, Vdp
 {
 }
 
-VdpText::~VdpText()
+VdpTextObject::~VdpTextObject()
 {
 }

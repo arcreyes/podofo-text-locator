@@ -2,7 +2,7 @@
 
 #include <vector>
 
-#include "VdpText.h"
+#include "VdpTextObject.h"
 
 class VdpPage
 {

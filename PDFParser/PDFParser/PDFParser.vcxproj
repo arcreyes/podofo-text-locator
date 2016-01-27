@@ -188,6 +188,7 @@
     <ClInclude Include="VdpDefs.h" />
     <ClInclude Include="VdpDocument.h" />
     <ClInclude Include="VdpExtractor.h" />
+    <ClInclude Include="VdpGraphicsObject.h" />
     <ClInclude Include="VdpGraphicsState.h" />
     <ClInclude Include="VdpMatrix.h" />
     <ClInclude Include="VdpObject.h" />
@@ -196,7 +197,7 @@
     <ClInclude Include="VdpPosition.h" />
     <ClInclude Include="VdpRect.h" />
     <ClInclude Include="VdpTemplateWriter.h" />
-    <ClInclude Include="VdpText.h" />
+    <ClInclude Include="VdpTextObject.h" />
     <ClInclude Include="VdpTextState.h" />
     <ClInclude Include="VdpUtility.h" />
   </ItemGroup>
@@ -219,6 +220,7 @@
     <ClCompile Include="VdpDataType.cpp" />
     <ClCompile Include="VdpDocument.cpp" />
     <ClCompile Include="VdpExtractor.cpp" />
+    <ClCompile Include="VdpGraphicsObject.cpp" />
     <ClCompile Include="VdpGraphicsState.cpp" />
     <ClCompile Include="VdpMatrix.cpp" />
     <ClCompile Include="VdpObject.cpp" />
@@ -227,7 +229,7 @@
     <ClCompile Include="VdpPosition.cpp" />
     <ClCompile Include="VdpRect.cpp" />
     <ClCompile Include="VdpTemplateWriter.cpp" />
-    <ClCompile Include="VdpText.cpp" />
+    <ClCompile Include="VdpTextObject.cpp" />
     <ClCompile Include="VdpTextState.cpp" />
     <ClCompile Include="VdpUtility.cpp" />
   </ItemGroup>

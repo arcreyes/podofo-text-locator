@@ -1,6 +1,6 @@
 #include "VdpExtractor.h"
 
-#include "VdpText.h"
+#include "VdpTextObject.h"
 
 #include <stack>
 
@@ -212,7 +212,7 @@ void VdpExtractor::ExtractObjects(PdfPage* pPdfPage, VdpDocument *pVdpDocument, 
 					double height = pCurFont->GetFontMetrics()->GetAscent() - pCurFont->GetFontMetrics()->GetDescent();
 
 
-					VdpText *pText = new VdpText(this->GetRawData(rString), false, xpos, ypos, ts, gs, VdpRect(xactual, yactual, width, height));
+					VdpTextObject *pText = new VdpTextObject(this->GetRawData(rString), false, xpos, ypos, ts, gs, VdpRect(xactual, yactual, width, height));
 
 
 					if (pVdpDocument->FindObject(pText, pVdpPage->GetPageIndex()) == -1)
@@ -257,7 +257,7 @@ void VdpExtractor::ExtractObjects(PdfPage* pPdfPage, VdpDocument *pVdpDocument, 
 					double width = dTJOffset - xactual;
 					double height = pCurFont->GetFontMetrics()->GetAscent() - pCurFont->GetFontMetrics()->GetDescent();
 
-					VdpText *pText = new VdpText(this->GetRawData(pdfArray), false, xpos, ypos, ts, gs, VdpRect(xactual, yactual, width, height));
+					VdpTextObject *pText = new VdpTextObject(this->GetRawData(pdfArray), false, xpos, ypos, ts, gs, VdpRect(xactual, yactual, width, height));
 
 
 					if (pVdpDocument->FindObject(pText, pVdpPage->GetPageIndex()) == -1)

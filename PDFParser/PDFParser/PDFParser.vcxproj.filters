@@ -60,9 +60,6 @@
     <ClInclude Include="VdpDefs.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="VdpText.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="VdpTextState.h">
       <Filter>Header Files</Filter>
     </ClInclude>
@@ -97,6 +94,12 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="VdpGraphicsState.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VdpTextObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VdpGraphicsObject.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
@@ -140,9 +143,6 @@
     <ClCompile Include="VdpObject.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="VdpText.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="VdpTextState.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -177,6 +177,12 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="VdpGraphicsState.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VdpTextObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VdpGraphicsObject.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
